@@ -98,3 +98,6 @@ CLASES Y ABSTRACCIÓN:
 
 -> La Abstraccion es encontrar las propiedades y métodos comunes en una clase de un tipo objeto
 
+
+------------------------------------------
+VIDEO 04
