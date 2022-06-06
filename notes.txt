@@ -1,2 +1,50 @@
+--------------------------------------------------------------------
 VIDEO 01
 
+-> Ayuda por donde empezar cualquier codigo
+
+Pasos:
+    1. Analisis
+        - Observar la necesidad, leer lo que se pide, entender qué es lo que hay que hacer
+    2. Modelado
+        - En papel = dibujar lo entendido = gráfico => diagrama UML
+    3. Programación
+        - Trasladar a código
+
+-> No programar sin cabeza = amantes de copiar y pegar => lo erroneo
+-> Hay que entender lo que se está haciendo => no memorizar, entender
+    = La memoria está en internet para consultar
+
+--------------------------------------------------------------------
+VIDEO 02
+
+Programación estructurada:
+    - Se va ejecutando una tras otra
+    - Un error => cae todo
+    - Dificil mantenimiento y escalabilidad
+
+    Nace POO => Programación Orientada a Objetos
+        - Trasladar lo que se ve en la vida real a código
+        - Observar los problemas a resolver como Objetos
+
+OBJETOS => Cualquier objeto tiene:
+    -> Propiedades => cómo es el objeto? La descripción
+    -> Métodos => Qué hace el objeto? Las acciones y comportamiento
+
+Pilares de POO:
+    - Herencia
+    - Encapsulamiento
+    - Abstraccion
+    - Polimorfismo
+
+CLASES => Fabricas de objetos = donde se fabrican los objetos
+
+            CLASES
+               |
+            OBJETOS
+        |               |
+        Propiedades   Métodos
+
+
+-----------------------------------------------------------------
+VIDEO 03
