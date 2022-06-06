@@ -48,3 +48,53 @@ CLASES => Fabricas de objetos = donde se fabrican los objetos
 
 -----------------------------------------------------------------
 VIDEO 03
+
+Objetos del mundo físico:
+    Coche
+    Arbol
+    Mesa
+    Silla
+
+Objetos del mundo código:
+    Ventana
+    Usuario
+    Botón
+    Menú
+    Conexión => A una base de datos, etc...
+
+
+    OBJETO => Ventana
+        Propiedades = Ancho, alto, color
+        Métodos = Aparece, cierra
+
+    OBJETO => Usuario
+        Propiedades = NombreUsuario, contraseña, perfil
+        Métodos = login, logout, comprar
+
+    OBJETO => Conexión
+        Propiedades = tiempoMaximo, intentos
+        Métodos = conectar, desconectar, reintentar
+
+    
+
+CLASES Y ABSTRACCIÓN:
+    - Diferencia entre propiedad y valor = 
+        ancho (prop) / 120px (valor)
+        Misma propiedad / diferentes valores
+
+    - Cuando se va a crear un objeto (ventanas) => 
+        Qué propiedades comunes tienen?
+            -> Propiedades = Ancho, alto, color, titulo, botones
+        Qué métodos tienen en común?
+            -> Aparece, cierra y envía datos
+    
+    => Se añaden las propiedades y métodos comunes a una clase (la fábrica):
+        - Según el tipo objeto
+
+-> Crear classes personales como tipo librería para usarlas en el futuro
+    Reutilizar nuestro código en otras aplicaciones
+    Reutilizar en el futuro en la misma aplicacion
+        (En una fábrica de coches retuliza sus partes en varios carros) Hay cosas que no cambian de uno a otro
+
+-> La Abstraccion es encontrar las propiedades y métodos comunes en una clase de un tipo objeto
+
